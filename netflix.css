@@ -1,0 +1,286 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Martel Sans', sans-serif;
+}
+
+.main {
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f562aaf4-5dbb-4603-a32b-6ef6c2230136/dh0w8qv-9d8ee6b2-b41a-4681-ab9b-8a227560dc75.jpg/v1/fill/w_1192,h_670,q_70,strp/the_netflix_login_background__canada__2024___by_logofeveryt_dh0w8qv-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvZjU2MmFhZjQtNWRiYi00NjAzLWEzMmItNmVmNmMyMjMwMTM2XC9kaDB3OHF2LTlkOGVlNmIyLWI0MWEtNDY4MS1hYjliLThhMjI3NTYwZGM3NS5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.LOYKSxIDqfPwWHR0SSJ-ugGQ6bECF0yO6Cmc0F26CQs");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    height: 80vh;
+    position: relative;
+}
+
+body {
+    background-color: black;
+}
+
+
+.main .box {
+    height: 80vh;
+    width: 100%;
+    opacity: 0.6;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    max-width: 80vw;
+    padding: 12px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+}
+
+nav img {
+    color: red;
+    width: 112px;
+    position: relative;
+    z-index: 10;
+    cursor: pointer;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    font-family: 'Martel Sans', sans-serif;
+    height: calc(100%+62px);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 0 30px;
+}
+
+.hero> :first-child {
+    font-weight: 800;
+    font-size: 45px;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    padding: 1.5rem;
+
+}
+
+.separation {
+
+
+    height: 5px;
+    background-color: rgb(52, 51, 51);
+    /* border-top: 1px solid grey; */
+    padding: 0%;
+}
+
+.btn {
+    gap: 2px;
+    color: #fff;
+    padding: 7px 10px;
+    font-weight: bold;
+    background-color: rgb(35, 34, 34);
+    border: 2px solid #fff;
+    cursor: pointer;
+
+}
+
+.btn img {
+    width: 10px;
+}
+
+.btn-red {
+    background-color: rgb(206, 17, 17);
+    color: rgb(248, 245, 245);
+    border-radius: 5px;
+    padding: 15px 28px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn-red:hover {
+    background-color: #a10808;
+}
+
+.btn-red-sm {
+
+    background-color: #db0001;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 7px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.btn-red-sm:hover {
+    background-color: #a10808;
+}
+
+.hero-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+
+}
+
+.main input {
+    background-color: rgba(23 23 23);
+    border: 0.5px solid gainsboro;
+    color: white;
+    border-radius: 5px;
+    padding: 15px 18px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    align-items: center;
+}
+
+@media screen and (max-width:1000px) {
+    .first {
+        flex-wrap: wrap;
+    }
+
+}
+
+.secimg img {
+    width: 30vw;
+    position: relative;
+    z-index: 10;
+}
+
+.secimg:hover {
+    scale: 1.2;
+    transition: 1.5s;
+}
+
+section.first>div {
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+
+}
+
+section.first>div :first-child {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+section.first>div :nth-child(2) {
+    font-size: 18px;
+
+}
+
+.faq {
+    background: black;
+    color: white;
+    padding: 34px;
+
+}
+
+.faq h2 {
+    text-align: center;
+    font-size: 48px;
+}
+
+.faqbox:hover {
+    background-color: rgb(58, 57, 57);
+    color: white;
+}
+
+.faqbox {
+    transition: all .5s ease-out;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: grey;
+    padding: 20px;
+    height: 40px;
+    max-width: 40vw;
+    margin: 34px auto;
+    cursor: pointer;
+
+}
+
+footer {
+    color: white;
+    margin: auto;
+    max-width: 60vw;
+    padding: 34px;
+}
+
+footer.question {
+    padding: 34px 0;
+
+}
+
+.footer a {
+    font-size: 14px;
+    color: antiquewhite;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: white;
+    margin: auto;
+}
+
+@media screen and (max-width:1000px) {
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+    }
+
+    .first {
+        flex-wrap: wrap;
+    }
+
+    .secimg img {
+        width: 305px;
+    }
+
+    .hero> :nth-child(1) {
+        font-size: 32px;
+    }
+
+    .hero> :nth-child(2) {
+        font-size: 32px;
+    }
+}
+
+.footer-items {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 14px;
+}
